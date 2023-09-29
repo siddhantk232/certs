@@ -1,0 +1,16 @@
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="640" height="480" fill="white"/>
+    <text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="64" letter-spacing="0em">
+        <tspan x="161" y="130.773">
+            Certificate
+        </tspan>
+    </text>
+    <text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="24" letter-spacing="0em">
+        <tspan x="35" y="249.227">
+            This is to certify that {name}({Email}) is a
+        </tspan>
+        <tspan x="35" y="278.227">
+            certified web developer.
+        </tspan>
+    </text>
+</svg>
