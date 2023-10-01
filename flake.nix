@@ -13,7 +13,7 @@
       in
       {
         devShells.default = pkgs.mkShellNoCC {
-          packages = [ pythonEnv pkgs.pdftk ];
+          packages = [ pythonEnv pkgs.pdftk pkgs.black ];
 
           shellHook = ''
             export PYTHONPATH="${pythonEnv}/bin/python"
