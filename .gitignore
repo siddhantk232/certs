@@ -3,3 +3,5 @@ __pycache__/
 
 *.pdf
 !./sample_cert.pdf
+
+./web/db.sqlite3
