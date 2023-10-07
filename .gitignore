@@ -7,3 +7,5 @@ __pycache__/
 web/db.sqlite3
 
 web/node_modules/
+
+web/static/

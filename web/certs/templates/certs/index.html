@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-    <h1>hello world</h1>
-</body>
-</html>
+{% extends 'certs/root.html' %}
+{% block content %}
+<form
+    action="{% url 'certs:create' %}"
+    method="post"
+    enctype="multipart/form-data"
+>
+    {% csrf_token %}
+    <fieldset>
+        {{ form }}
+        <input type="submit" value="Upload" />
+    </fieldset>
+</form>
+{% endblock content %}

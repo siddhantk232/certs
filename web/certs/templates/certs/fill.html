@@ -1,0 +1,26 @@
+{% extends 'certs/root.html' %} {% block content %} {% load static %}
+
+<style>
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+</style>
+
+<div class="container">
+    <div class="left">
+        <h1>Fill Details</h1>
+    </div>
+    <div class="right">
+        <embed
+            src="{% static 'template.pdf' %}"
+            style="aspect-ratio: 10/8; width: 500px"
+        />
+    </div>
+</div>
+{% endblock content %}
