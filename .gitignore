@@ -1,5 +1,5 @@
 .direnv/
-__pycache__/
+**/__pycache__/
 
 *.pdf
 !./sample_cert.pdf
