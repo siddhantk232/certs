@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-import lib.fdf as fdf
-import lib.pdftk as pdftk
+from lib import pdftk, fdf
 
 pdf_fields = pdftk.inspect_pdf_fields("./sample_cert.pdf")
 
