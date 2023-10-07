@@ -5,3 +5,5 @@ __pycache__/
 !./sample_cert.pdf
 
 web/db.sqlite3
+
+web/node_modules/

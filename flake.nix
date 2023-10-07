@@ -25,9 +25,10 @@
         devShells.default = pkgs.mkShellNoCC {
           packages = [ pythonEnv pkgs.pdftk pkgs.black pkgs.nixfmt ];
 
-          shellHook = ''
-            export PYTHONPATH="${pythonEnv}/bin/python"
-          '';
+          buildInputs = with pkgs; [
+            nodejs_18
+            nodePackages.prettier
+          ];
         };
       });
 }
